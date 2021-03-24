@@ -5,7 +5,9 @@ import Form from './components/Form.jsx';
 class App extends Component {
   render() {
     return (
-      <TodoListTemplate form={<Form />}>템플릿 완성</TodoListTemplate>
+      <TodoListTemplate form={<Form />}>
+        템플릿 완성
+      </TodoListTemplate>
     );
   }
 }
