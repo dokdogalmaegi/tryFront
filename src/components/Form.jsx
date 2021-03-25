@@ -10,10 +10,10 @@ onChange: When changed of input content a function is execute
 onkeyPress: When input of key a function is execute
 */
 
-const Form = ({ value, onchange, onCreate, onKeyPress }) => {
+const Form = ({ value, onChange, onCreate, onKeyPress }) => {
   return (
     <div className='form'>
-      <input value={value} onChange={onchange} onKeyPress={onKeyPress} />
+      <input value={value} onChange={onChange} onKeyPress={onKeyPress} />
       <div className='create-button' onClick={onCreate}>
         추가
       </div>
